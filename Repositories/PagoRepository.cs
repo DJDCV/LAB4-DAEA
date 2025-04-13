@@ -5,9 +5,9 @@ namespace LAB04_DelCarpioDeivid.Repositories
 {
     public class PagoRepository : IPagoRepository
     {
-        private readonly DbContext _context;
+        private readonly TiendaDbContext _context;
 
-        public PagoRepository(DbContext context)
+        public PagoRepository(TiendaDbContext context)
         {
             _context = context;
         }

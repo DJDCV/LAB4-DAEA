@@ -5,9 +5,9 @@ namespace LAB04_DelCarpioDeivid.Repositories
 {
     public class DetallesOrdenRepository : IDetallesOrdenRepository
     {
-        private readonly DbContext _context;
+        private readonly TiendaDbContext _context;
 
-        public DetallesOrdenRepository(DbContext context)
+        public DetallesOrdenRepository(TiendaDbContext context)
         {
             _context = context;
         }

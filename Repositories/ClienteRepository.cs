@@ -7,9 +7,9 @@ namespace LAB04_DelCarpioDeivid.Repositories
 {
     public class ClienteRepository : IClienteRepository
     {
-        private readonly DbContext _context;
+        private readonly TiendaDbContext _context;
 
-        public ClienteRepository(DbContext context)
+        public ClienteRepository(TiendaDbContext context)
         {
             _context = context;
         }

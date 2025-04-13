@@ -5,9 +5,9 @@ namespace LAB04_DelCarpioDeivid.Repositories
 {
     public class ProductoRepository : IProductoRepository
     {
-        private readonly DbContext _context;
+        private readonly TiendaDbContext _context;
 
-        public ProductoRepository(DbContext context)
+        public ProductoRepository(TiendaDbContext context)
         {
             _context = context;
         }
